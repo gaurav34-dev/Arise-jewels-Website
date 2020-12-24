@@ -1,0 +1,786 @@
+*
+{
+	font-family: 'Poppins', sans-serif;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+	color:black;
+	padding-left:34px;
+	padding-right:36px;
+	margin-top:5px;
+	font-size:16px;
+
+}
+.btn-primary
+{
+	background-color:#53bbc6;
+	border-color: transparent;
+}
+.logo img
+{
+  width:210px;
+  position: absolute;
+	top:28px;
+	left:42%;
+}
+nav.navbar.navbar-expand-sm.navbar-dark
+{
+	flex-direction:column;
+	
+}
+.nav-link:hover
+{ color:blue !important;
+text-decoration: underline;
+
+}
+
+.header-items
+{   
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	
+
+}
+
+/*@media (max-width:576px){
+.navbar-expand-sm .navbar-nav {
+    flex-direction:column;
+    padding: 0px;
+    text-align: center;
+    margin-bottom:10%;
+    margin-top: 10%;
+    width:100vw;
+
+}
+}*/
+
+/*@media(max-width:576px)*/
+/*{
+	/*.header-items
+	{
+		flex-direction:column;
+
+	}
+    .logo img
+    {
+    	order:-1;
+    	/*width:100%;
+    	height: auto;*/
+    	/*position: absolute;
+    	left:50%;
+    }
+    .Icons
+    {
+    	margin-top: 5%;
+
+    }
+    .search-elements
+    {
+    
+ 
+
+    }
+}*/
+
+
+.Icons
+{  
+	
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+.allicons
+{
+	padding:7px;
+	margin-top:10%;
+}
+.navbar-nav
+{
+	margin-top: 2%;
+}
+.retail-and-ellipsce .ellipsce img
+{
+	position: relative;
+	left:-19px;
+}
+
+/* search button start*/
+.text-line {
+    background-color: transparent;
+    color:black;
+    outline:none;
+    outline-style:none; 
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding:3px 10px;
+    background-image: url('https://img.icons8.com/fluent-systems-regular/2x/search.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: absolute;
+    top:30px;
+    left:220px;
+}
+
+.Search-heading
+{
+	position:absolute;
+	left:170px;
+	top:45px;
+	font-size: 12px;
+}
+.search-elements
+{
+	display: flex;
+}
+/* search button end
+
+
+
+/*header-end*/
+
+/*banner-section-starts*/
+.shop-now
+{
+	padding-top:80px;
+	
+}
+.big-social-media-icons
+{
+	padding:40px 90px 90px 90px;
+}
+.big-social-media-icons a
+{ padding:5px;
+}
+.row
+{
+ align-items:center; 
+text-align: center;
+}
+.banner
+{ background-image: url("../images/layer-1-banner.png");
+background-size: cover;
+background-repeat: no-repeat;
+position:relative;
+padding:50px;
+min-height:620px;
+width:100%;
+
+}
+.bannertext
+{
+	position:absolute;
+	top:150px;
+    right:-20px;
+    margin-left: 190px;
+
+}
+.layer-2-banner img
+{ position:absolute;
+	top:165px;
+	left:90px;
+ 
+}
+.layer-3-banner img
+{
+   position:absolute;
+   left:450px;
+   top:90px;
+}
+h1
+{
+	font-size: 50.04px;
+}
+h6
+{
+	font-size: 25.05px;
+}
+.btn-lg
+{
+	padding:0.5rem 3rem;
+}
+.btn-group-lg>.btn, .btn-lg
+{
+  font-size:1rem;
+}
+[type=button]:hover
+{ 
+text-decoration: underline;
+background-color:#53bbc6;
+border-color:transparent;
+}
+/*@media(max-width:576px)
+{
+.banner
+{ background-image: url("../images/layer-1-banner.png");
+background-size: contain;
+background-repeat: no-repeat;
+position:relative;
+height:auto;
+width:100%;
+
+}
+.bannertext
+{
+	position:absolute;
+	top:150px;
+	left:200%;
+	margin-left:90%;
+
+}
+.big-social-media-icons
+{
+	display: flex;
+	margin-top:-10px;
+	position: relative;
+	right: 30px;
+}
+.shop-now>button
+{
+	white-space: nowrap;
+	position: relative;
+	left:100px;
+}
+h1
+{ padding: 0px;
+  white-space: nowrap;  
+}
+h6
+{
+ white-space: nowrap;
+ position: relative;
+ right: 20px;
+
+}
+}*/
+/*banner-section-end*/
+
+/*loose-gemstone-section-start*/
+
+.gemstone-slider-heading
+{
+	margin-top:60px;
+	margin-left:60px;
+	font-size:26.20px;
+	position: relative;
+	margin-bottom: 2%;
+}
+.gemstone-slider-heading:after
+{
+	content:"";
+	display: block;
+	width:140px;
+	height: 1px;
+	background:black; 
+	position: absolute;
+	left:43%;
+	bottom:3px;
+}
+.gemstone-shape .diamonds
+{ 
+  
+  margin-top:30px; 
+  /*opacity: 0.3;
+  transition: all 300ms ease;*/
+}
+/*.slick-current
+{
+	opacity: 1;
+	transform: scale(1.2);
+}
+.slick-current .diamond-name
+{
+	opacity: 1;
+}*/
+.gemstone-shape .diamonds img
+{  margin:auto;
+   
+}
+.gemstone-shape .diamonds a div:hover
+{  
+  /*border:1px solid black;*/
+  box-shadow: 10px 10px 3px gray;
+  /*background-color: gray;*/
+  
+}
+
+
+.diamonds
+{
+	padding-bottom: 1%;
+}
+
+.gemstone-shape .slick-next,.gemstone-shape .slick-prev
+{
+	right:0px;
+	top:42%;
+}
+.diamond-name
+{
+  
+  padding-top: 5%;
+}
+
+.diamonds img
+{
+
+	padding-top:20px;
+}
+.diamonds a div
+{
+	/*width:175.8px;*/
+	width:90%;
+	height:185.04px;
+	border:1px solid #D3D3D3;
+	position: relative;
+	padding-top:10px;
+	margin-right: auto;
+	margin-left: auto;
+
+    
+
+}
+
+.diamonds a div:after
+{ position: absolute;
+	width: 20px;
+	height: 20px;
+	border-top: 0px solid #D3D3D3;
+	border-right: 1px solid #D3D3D3;
+	border-bottom: 1px solid #D3D3D3;
+	border-left: 0px solid #D3D3D3;
+	top:109%;
+	left:57%;
+	margin-left:-25px;
+	content:'';
+	transform:rotate(45deg);
+	margin-top:-25px;
+	background: white;
+
+
+
+}
+/*loose-gemstone-section-end*/
+
+
+/*featured-products-slider-start*/
+
+.featured-products-heading
+{
+	margin-top:40px;
+	margin-left:30px;
+	font-size:26.20px;
+	position: relative;
+	margin-bottom: 2%;
+}
+.featured-products-heading:after
+{
+	content:"";
+	display: block;
+	width:170px;
+	height: 1px;
+	background:black; 
+	position: absolute;
+	left:43%;
+	bottom:3px;
+}
+.featured-products-shape .products
+{ padding-right:30px;
+  margin-bottom:50px;
+  margin-top:10px;
+  
+   
+}
+.featured-products-shape .products:hover
+{
+	/*transform: scale(1.2);
+	opacity: 0.3;*/
+}
+.products
+{
+	background-image: url("../images/featured-product-background.png");
+	min-height:422.4px;
+	position:relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.featured-products-shape .products img
+{  
+	
+	margin: auto;
+
+}
+
+.products>a>div>img
+{
+	padding-top:15%;
+}
+
+.product-text
+{
+  margin-top:5%;
+
+}
+.product-text .product-name
+{
+	font-weight:100;
+  font-size:14px;
+}
+.heart-and-cart>div
+{
+  display: inline-block;
+  margin-top:3%;
+
+}
+
+.featured-products-shape .products:hover
+{  
+  /*border:1px solid black;*/
+  /*box-shadow: 10px 10px 5px gray;*/
+
+}
+.slick-next
+{
+	right:0px;
+}
+.slick-prev:before, .slick-next:before
+{
+	color:black;
+}
+
+
+/*featured-products-slider-end*/
+
+/*diamond-education-section-starts*/
+.diamond-education
+{ background-image: url("../images/Diamond-Education.png");
+background-size:cover;
+background-repeat: no-repeat;
+min-height:450px;
+margin-top:60px;
+
+}
+.diamond-education-text
+{
+	float:right;
+	margin-top:5%;
+	margin-right:10%;
+	padding-bottom:15%;
+	height:320px;
+	width:550px;
+	background-color:#e1ebec;
+}
+h2
+{
+text-align: left;
+padding-top:30px;
+padding-left:40px;
+font-size:33.20px;
+}
+p
+{
+text-align: left;
+padding-top:10px;
+padding-left:40px;
+font-size: 17.26px;
+}
+
+.row
+{
+	margin-right:0px;
+}
+.read-more-diamond-education>.btn-primary
+{
+	background-color:#53bbc6;
+	margin-bottom:40px;
+}
+@media(max-width:576px)
+{
+.diamond-education
+{ background-image: url("../images/Diamond-Education.png");
+background-size: 100vw auto;
+background-repeat: no-repeat;
+margin-top:60px;
+}
+
+}
+/*diamond-education-section-ends*/
+
+/*diamond about us section start*/
+.diamond-about-us-images>.rectangle
+{  position:relative;
+	top:40px;
+   
+}
+.layer-10>img
+{
+	position:absolute;
+	left:-90px;
+	bottom:-60px;
+}
+.layer-11>img
+{
+ position:absolute;
+ left:200px;
+}
+.diamond-about-us-text
+{
+position:absolute;
+top:-50px;
+left:0px;
+}
+.about-us-banner>img
+{
+	position: absolute;
+	left:-90px;
+	bottom:-60px;
+}
+
+.diamond-about-us-images
+{
+	display:flex;
+	margin-top:15%;
+	position: relative;
+	left:9%;
+}
+.about-us>.container
+{
+	padding-left: 0px;
+}
+
+.diamond-about-us-heading
+{
+	position:relative;
+}
+.diamond-about-us-heading:after
+{
+	content:"";
+	display: block;
+	width:80px;
+	height: 1px;
+	background:black; 
+	position: absolute;
+	left:10%;
+	bottom:1px;
+}
+.read-more-diamond-about-us
+{ margin-left:8%;
+}
+.read-more-diamond-about-us>.btn-primary
+{
+	background-color:#53bbc6;
+}
+.about-us
+{
+	/*width:1250px;
+	position: relative;
+	left:70px;
+	margin-top:60px;*/
+}
+/*diamond about us section end*/
+
+/*our product slider start*/
+.ring-products-heading
+{
+	margin-top:10%;
+	margin-bottom:2%;
+	position:relative;
+}
+.ring-products-heading:after
+{
+	content:"";
+	display: block;
+	width:160px;
+	height: 1px;
+	background:black; 
+	position: absolute;
+	left:42%;
+    bottom:3px;
+}
+.ring-products img
+{
+	margin:auto;
+}
+.ring-products-shape .ring-products
+{  
+	border:1px solid black;
+	padding:10px;
+	margin:10px;                          
+}
+.ring-products>a>div>img
+{
+	width:200px;
+	height:200px;
+	margin-top:10%;
+}
+.ring-products-shape .ring-products:hover
+{
+box-shadow: 10px 10px 5px gray;
+}
+
+.ring-product-text
+{
+padding-top:5%;
+margin-bottom: 12%;
+
+}
+.ring-price
+{
+	color:#53bbc6;
+}
+.ring-product-name,.ring-price
+{
+	padding: 0px;
+	margin: 0px;
+}
+/*our product slider end*/
+
+/*featured-services-start*/
+/*.featured-services-section
+{
+	width:1345px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:60px;
+}*/
+.all-services
+{
+	display:flex;
+	justify-content:space-between;
+
+}
+.service-description p
+{
+	text-align:center;
+}
+.services
+{
+  margin-top:3%;
+}
+.featured-services
+{
+	margin-top:3%;
+}
+.service-name h2
+{
+	position:relative;
+}
+.service-name h2:before
+{
+	content:"";
+	display: block;
+	width:102.72px;
+	height: 1px;
+	background:black; 
+	position: absolute;
+	left:34.5%;
+    bottom:-12%;
+}
+/*featured-services-end*/
+
+/*footer-starts*/
+.footer-menu
+{
+background-image: url("../images/footer-background.png");
+margin-top:60px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+min-height:347.46px;
+}
+.footer-content
+{display: flex;
+justify-content:space-evenly;
+padding-bottom:0px;
+padding-top:0px;
+}
+
+.heading
+{   padding-top:20px;
+	padding-bottom:30px;
+	font-weight: bold;
+}
+
+
+.social-media-icons
+{
+ display:flex;
+}
+
+.social-media-icons div
+{
+	padding-right:3px;
+	padding-left:3px;
+}
+.sub-heading div
+{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.footer-menu
+{margin-top:4%;
+
+}
+.footer-content
+{ width:1300px;
+	margin-left:3%;
+
+}
+.social-media-icons
+{position: absolute;
+	left:155px;
+}
+.social-media-icons div
+{
+	padding:5px;
+	margin: 5px;
+}
+.content
+{
+	margin-top:5%;
+	margin-bottom:3%;
+}
+.Address,.Mobile-number,.Email
+{
+	line-height: 2.2;
+}
+.sub-heading div a
+{ color: black;
+
+}
+.sub-heading div a:hover
+{
+	color:gray;
+}
+/*footer-ends*/
+
+
+/*copyright starts*/
+.container-fluid
+{
+   padding-left: 0px;
+   padding-right: 0px;
+
+}
+.copyright-section
+{
+	margin-bottom:139.2px;
+
+}
+.copyright div
+{
+	color:white;
+	margin-top:10.16px;
+}
+.copyright
+{
+	background-color: #5bc2cb;
+	min-height:40.32px;
+	display: flex;
+	justify-content:space-evenly;
+}
+
+/*copyright ends*/
