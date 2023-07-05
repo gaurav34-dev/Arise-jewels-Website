@@ -43,6 +43,10 @@ text-decoration: underline;
 
 }
 
+.navbar
+{
+	margin: auto !important;
+}
 /*@media (max-width:576px){
 .navbar-expand-sm .navbar-nav {
     flex-direction:column;
@@ -476,9 +480,10 @@ margin-top:60px;
 h2
 {
 text-align: left;
-padding-top:30px;
+margin-left:2rem;
+/*padding-top:30px;
 padding-left:40px;
-font-size:33.20px;
+font-size:33.20px;*/
 }
 p
 {
@@ -510,16 +515,17 @@ margin-top:60px;
 /*diamond-education-section-ends*/
 
 /*diamond about us section start*/
+
 .diamond-about-us-images>.rectangle
 {  position:relative;
-	top:40px;
+    top:40px;
    
 }
 .layer-10>img
 {
-	position:absolute;
-	left:-90px;
-	bottom:-60px;
+    position:absolute;
+    left:-90px;
+    bottom:-60px;
 }
 .layer-11>img
 {
@@ -534,52 +540,46 @@ left:0px;
 }
 .about-us-banner>img
 {
-	position: absolute;
-	left:-90px;
-	bottom:-60px;
+    position: absolute;
+    left:-90px;
+    bottom:-60px;
 }
 
 .diamond-about-us-images
 {
-	display:flex;
-	margin-top:15%;
-	position: relative;
-	left:9%;
+    display:flex;
+    margin-top:15%;
+    position: relative;
+    left:9%;
 }
 .about-us>.container
 {
-	padding-left: 0px;
+    padding-left: 0px;
 }
 
 .diamond-about-us-heading
 {
-	position:relative;
+    position:relative;
 }
 .diamond-about-us-heading:after
 {
-	content:"";
-	display: block;
-	width:80px;
-	height: 1px;
-	background:black; 
-	position: absolute;
-	left:10%;
-	bottom:1px;
+    content:"";
+    display: block;
+    width:80px;
+    height: 1px;
+    background:black; 
+    position: absolute;
+    left:10%;
+    bottom:1px;
 }
 .read-more-diamond-about-us
 { margin-left:8%;
 }
 .read-more-diamond-about-us>.btn-primary
 {
-	background-color:#53bbc6;
+    background-color:#53bbc6;
 }
-.about-us
-{
-	/*width:1250px;
-	position: relative;
-	left:70px;
-	margin-top:60px;*/
-}
+
 /*diamond about us section end*/
 
 /*our product slider start*/
@@ -689,7 +689,7 @@ margin-top:60px;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center center;
-min-height:347.46px;
+/*min-height:347.46px;*/
 }
 .footer-content
 {display: flex;
@@ -725,7 +725,7 @@ padding-top:0px;
 
 }
 .footer-content
-{ width:1300px;
+{ 
 	margin-left:3%;
 
 }
