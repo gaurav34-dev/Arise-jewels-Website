@@ -5,7 +5,7 @@
 
 .header
 {
-	overflow-x: scroll;
+	overflow-x: scrolL;
 }
 .navbar-dark .navbar-nav .nav-link
 {
@@ -402,11 +402,7 @@ h6
   
    
 }
-.featured-products-shape .products:hover
-{
-	/*transform: scale(1.2);
-	opacity: 0.3;*/
-}
+
 .products
 {
 	background-image: url("../images/featured-product-background.png");
@@ -444,12 +440,7 @@ h6
 
 }
 
-.featured-products-shape .products:hover
-{  
-  /*border:1px solid black;*/
-  /*box-shadow: 10px 10px 5px gray;*/
 
-}
 .slick-next
 {
 	right:0px;
