@@ -2,6 +2,11 @@
 {
 	font-family: 'Poppins', sans-serif;
 }
+
+.header
+{
+	overflow-x: scroll;
+}
 .navbar-dark .navbar-nav .nav-link
 {
 	color:black;
@@ -191,7 +196,6 @@ width:100%;
 .layer-3-banner img
 {
    position:absolute;
-   left:450px;
    top:90px;
 }
 h1
@@ -516,41 +520,20 @@ margin-top:60px;
 
 /*diamond about us section start*/
 
-.diamond-about-us-images>.rectangle
-{  position:relative;
-    top:40px;
-   
-}
-.layer-10>img
-{
-    position:absolute;
-    left:-90px;
-    bottom:-60px;
-}
-.layer-11>img
-{
- position:absolute;
- left:200px;
-}
+
+
 .diamond-about-us-text
 {
 position:absolute;
 top:-50px;
 left:0px;
 }
-.about-us-banner>img
-{
-    position: absolute;
-    left:-90px;
-    bottom:-60px;
-}
 
 .diamond-about-us-images
 {
-    display:flex;
+   
     margin-top:15%;
-    position: relative;
-    left:9%;
+   
 }
 .about-us>.container
 {
